@@ -1,5 +1,5 @@
 # react-chrome-redux-examples
-Examples using react-chrome-redux from SoCal ReactJS meetup.
+Examples using react-chrome-redux from [SoCal ReactJS meetup](https://www.youtube.com/watch?v=k88OIWJENgE).
 
 ## To Run An Example
 Clone or download this repo.
@@ -13,7 +13,7 @@ npm install
 To build the project, run 
 
 ```
-gulp
+npm start
 ```
 
 And webpack bundle will be created. 
