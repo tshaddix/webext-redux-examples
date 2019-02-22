@@ -5,7 +5,7 @@ import {Store} from 'webext-redux';
 
 import App from './components/app/App';
 
-const proxyStore = new Store({});
+const proxyStore = new Store();
 
 const anchor = document.createElement('div');
 anchor.id = 'rcr-anchor';
