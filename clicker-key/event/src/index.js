@@ -1,10 +1,8 @@
 import {createStore} from 'redux';
 import rootReducer from './reducers';
 
-import {wrapStore} from 'react-chrome-redux';
+import {wrapStore} from 'webext-redux';
 
 const store = createStore(rootReducer, {});
 
-wrapStore(store, {
-  portName: 'example'
-});
+wrapStore(store, {});

@@ -1,5 +1,5 @@
-# react-chrome-redux-examples
-Examples using react-chrome-redux from [SoCal ReactJS meetup](https://www.youtube.com/watch?v=k88OIWJENgE).
+# webext-redux-examples
+Examples using webext-redux from [SoCal ReactJS meetup](https://www.youtube.com/watch?v=k88OIWJENgE).
 
 ## To Run An Example
 Clone or download this repo.

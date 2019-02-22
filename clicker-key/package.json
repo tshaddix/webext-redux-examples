@@ -10,10 +10,10 @@
   "author": "Tyler Shaddix",
   "dependencies": {
     "react": "^15.5.0",
-    "react-chrome-redux": "^2.0.0-alpha.5",
     "react-dom": "^15.5.0",
     "react-redux": "^4.0.0",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "webext-redux": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
