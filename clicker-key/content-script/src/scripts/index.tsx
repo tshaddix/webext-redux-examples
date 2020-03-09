@@ -19,3 +19,5 @@ proxyStore.ready().then(() => {
     </Provider>
    , document.getElementById('rcr-anchor'));
 });
+
+console.log("content loaded");

@@ -14,3 +14,4 @@ proxyStore.ready().then(() => {
     ,document.getElementById('app'));
 });
 
+console.log("popup loaded");

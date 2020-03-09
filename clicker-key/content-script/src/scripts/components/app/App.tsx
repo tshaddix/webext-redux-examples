@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import {Dispatch} from "redux";
 
-class App extends Component {
+export interface IAppProps {
+  count: number;
+  dispatch: Dispatch<any>;
+}
+class App extends Component<IAppProps> {
   constructor(props) {
     super(props);
   }
@@ -17,13 +22,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        Click Count: {this.props.count}
+        Count: {this.props.count}
       </div>
     );
   }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state): Partial<IAppProps> => {
   return {
     count: state.count
   };
