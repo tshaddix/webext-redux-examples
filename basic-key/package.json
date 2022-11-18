@@ -25,6 +25,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-util": "^3.0.7",
     "rimraf": "^2.5.0",
-    "webpack": "^2.6.0"
+    "webpack": "^5.75.0"
   }
 }
